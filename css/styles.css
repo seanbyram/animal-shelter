@@ -7,18 +7,32 @@ h1 {
   border: 10px solid black;
   background-image: url(../img/pebbles.png);
   margin: 15px;
-  font-family: sans-serif;
+  font-family: 'Staatliches', cursive;
 }
 
 h2 {
   text-align: center;
+  color: white;
+  font-family: 'Indie Flower', cursive;
 }
 
 nav {
   text-align: center;
   float: inherit;
-  font-size: 25px;
+  font-size: 35px;
 
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#rcorners1 {
+  border-radius: 50px;
+  padding: 20px;
 }
 
 .sidebar {
@@ -32,6 +46,7 @@ nav {
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 50px;
+  border-radius: 25px;
 }
 
 .column {
@@ -46,6 +61,7 @@ nav {
 
 .column p {
   text-align: center;
+  color: white;
 }
 
 .column img {
@@ -86,6 +102,13 @@ nav {
     blink-caret .75s step-end infinite;
 }
 
+.footer {
+  border: 10px solid black;
+  text-align: center;
+  color: white;
+  background-image: url(../img/pebbles.png);
+}
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -99,7 +122,7 @@ nav {
 }
 
 body {
-  background: url("../img/abstract.png") no-repeat center center fixed;
+  background: url("../img/blue.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -110,12 +133,12 @@ body {
 
 @media screen and (min-width: 700px) and (max-width: 1000px){
   body {
-
+    color: white;
   }
 }
 
 @media screen and (max-width: 480px){
   body {
-
+    color: yellow;
   }
 }
