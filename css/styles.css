@@ -1,11 +1,16 @@
 
+
+body {
+  background-color: #96CEB4;
+}
+
 h1 {
   text-align: center;
   font-size: 75px;
   color: white;
   height: 150px;
   border: 10px solid black;
-  background-image: url(../img/pebbles.png);
+  background-color: #FFEEAD;
   margin: 15px;
   font-family: 'Staatliches', cursive;
 }
@@ -20,8 +25,14 @@ nav {
   text-align: center;
   float: inherit;
   font-size: 35px;
+  background-color: #FF6F69;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top:25px;
+  border-radius: 10px;
 
 }
+
 
 iframe {
   display: block;
@@ -33,6 +44,11 @@ iframe {
 #rcorners1 {
   border-radius: 50px;
   padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
 }
 
 .sidebar {
@@ -91,6 +107,7 @@ iframe {
     background-size:     cover;
 }
 
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -103,10 +120,21 @@ iframe {
 }
 
 .footer {
-  border: 10px solid black;
   text-align: center;
-  color: white;
-  background-image: url(../img/pebbles.png);
+  color: #FFCC5C;
+  background-color: #FFEEAD;
+}
+
+#nav a:hover {
+
+}
+
+#padr {
+  padding-right: 50px;
+}
+
+a:visited {
+  color: #FFEEAD;
 }
 
 /* The typing effect */
@@ -119,15 +147,6 @@ iframe {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
-}
-
-body {
-  background: url("../img/blue.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: block;
 }
 
 
